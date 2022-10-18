@@ -1,6 +1,4 @@
 import './App.css';
-import Header from './Components/Layout/Header'
-
 
 
 function App() {
@@ -9,11 +7,13 @@ function App() {
 
 
   return (
-    <>
-      <Header />
-      
+    <div className='fundo'>
 
-    </>
+    
+        
+      <h1 className='manutencao'>Site em Manutenção</h1>
+
+    </div>
   );
 }
 
